@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume - Yash Honrao</title>
-      <style>
+       <style>
         body {
             font-family: 'Arial', sans-serif;
             background-color: #f4f4f4;
@@ -13,17 +13,18 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-direction: column;
+            flex-direction: column; /* Ensure the container and PS note are stacked vertically */
             height: 100vh;
+            text-align: center; /* Center the text of both container and PS note */
         }
         .container {
             background-color: white;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 20px;
-            text-align: center;
             max-width: 500px;
             width: 100%;
+            margin-bottom: 20px; /* Space between the container and the PS note */
         }
         h1 {
             color: #2C3E50;
@@ -50,8 +51,7 @@
         .ps-note {
             font-size: 1rem;
             color: #7f8c8d;
-            margin-top: 20px;
-            text-align: center;
+            margin-top: 20px; /* Add space between the link and PS note */
         }
     </style>
 
